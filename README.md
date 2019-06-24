@@ -14,3 +14,12 @@ Program to compute the bigram model (counts and probabilities) on the given corp
 
 * Input Sentence: 
 > The Fed chairman warned that the board 's decision is bad
+
+# POS Tagging
+
+Transformation-based POS Tagging: 
+
+Implemented Brill’s transformation-based POS tagging algorithm using ONLY the previous word’s tag to extract the best transformation rule to:
+
+1. Transform “NN” to “JJ”
+2. Transform “NN” to “VB”
